@@ -1,0 +1,80 @@
+{
+  "categorias": [
+    {
+      "categoria": "Procedimentos Internos",
+      "produtos": [
+        {
+          "nome": "Higienização de Teto",
+          "descricao": "Remoção completa de manchas, poeira e odores do forro do seu carro, utilizando produtos bactericidas que renovam o ambiente interno.",
+          "preco": 89.90,
+          "desconto": 0
+        },
+        {
+          "nome": "Higienização de Bancos",
+          "descricao": "Limpeza profunda dos assentos (tecido ou couro) para remover sujeira acumulada e manchas, com aplicação de produto bactericida. Preço para o conjunto completo.",
+          "preco": 129.90,
+          "desconto": 15
+        },
+        {
+          "nome": "Higienização de Carpete",
+          "descricao": "Tratamento focado no assoalho do veículo, utilizando extratora para remover a sujeira mais profunda, manchas e eliminar odores e bactérias.",
+          "preco": 99.90,
+          "desconto": 10
+        },
+        {
+          "nome": "Detalhamento de Painel e Portas",
+          "descricao": "Limpeza meticulosa de todas as superfícies plásticas, saídas de ar, consoles e painéis das portas com pincéis e ferramentas adequadas.",
+          "preco": 79.90,
+          "desconto": 10
+        },
+        {
+          "nome": "Proteção e Revitalização de Plásticos Internos",
+          "descricao": "Aplicação de um protetor UV de alta qualidade nos painéis e portas, que revitaliza a cor, protege contra ressecamento e deixa um acabamento acetinado de carro novo.",
+          "preco": 69.90,
+          "desconto": 10
+        },
+        {
+          "nome": "Adicional: Remoção dos Bancos",
+          "descricao": "Para uma limpeza suprema, removemos os bancos com segurança para garantir acesso a 100% do carpete. Serviço adicional à Higienização de Carpete.",
+          "preco": 159.90,
+          "desconto": 10
+        }
+      ]
+    },
+    {
+      "categoria": "Procedimentos Externos",
+      "produtos": [
+        {
+          "nome": "Lavagem Técnica com Snow Foam",
+          "descricao": "Processo de lavagem seguro que utiliza pré-lavagem e espuma densa (snow foam) para remover a sujeira sem causar riscos na pintura.",
+          "preco": 79.90,
+          "desconto": 10
+        },
+        {
+          "nome": "Detalhamento de Rodas e Caixas de Roda",
+          "descricao": "Limpeza profunda da face e parte interna das rodas para remover pó de freio e contaminações. As caixas de roda também são limpas e protegidas.",
+          "preco": 69.90,
+          "desconto": 10
+        },
+        {
+          "nome": "Revitalização e Proteção de Plásticos Externos",
+          "descricao": "Restaura a cor original de para-choques, frisos e outras peças plásticas, aplicando um protetor duradouro com proteção UV e efeito hidrofóbico.",
+          "preco": 59.90,
+          "desconto": 15
+        },
+        {
+          "nome": "Aplicação de 'Pretinho' Premium",
+          "descricao": "Finalização dos pneus com um produto de alta durabilidade que oferece um acabamento acetinado (brilho na medida certa) e repele a sujeira.",
+          "preco": 24.90,
+          "desconto": 5
+        },
+        {
+          "nome": "Limpeza de Vidros e Para-brisas",
+          "descricao": "Limpeza interna e externa de todos os vidros, garantindo uma visão cristalina, sem manchas ou marcas, para máxima segurança e conforto.",
+          "preco": 34.90,
+          "desconto": 5
+        }
+      ]
+    }
+  ]
+}
