@@ -6,7 +6,7 @@ import { ArrowRight, Calendar, Car, Shield, Sparkles } from "lucide-react";
 import HeroCard from "../HeroCard/HeroCard";
 import Link from "next/link";
 
-// Lista dos serviços principais
+// Lista dos serviços principais, depois alterar aqui para algo mais relevante talvez
 const servicos = [
     {
         icon: Car,
@@ -59,7 +59,6 @@ export default function HeroSection() {
                             <HeroCard key={servico.title} icon={servico.icon} title={servico.title} description={servico.description} />
                         ))}
 
-                        {/* LINHA MODIFICADA ABAIXO */}
                         <Link href={"/servicos"} className="md:col-span-3">
                             <p className="flex items-center justify-end mt-2 hover:underline">
                                 <ArrowRight /> Ver lista de serviços completa

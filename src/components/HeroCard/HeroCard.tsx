@@ -1,10 +1,4 @@
-import { LucideIcon } from "lucide-react";
-
-interface HeroCardProps {
-    icon: LucideIcon;
-    title: string;
-    description: string;
-}
+import { HeroCardProps } from "@/types/Interfaces";
 
 export default function HeroCard({ icon: Icon, title, description }: HeroCardProps) {
     return (

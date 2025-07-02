@@ -7,7 +7,6 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function InfoSection() {
     return (
-        // Seção com fundo preto e espaçamento vertical generoso
         <section id="informacoes" className="bg-gradient-to-b from-black to-black/30 backdrop-blur-lg py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: "easeOut" }}>

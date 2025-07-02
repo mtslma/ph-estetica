@@ -3,16 +3,12 @@
 import Link from "next/link";
 import { motion, AnimatePresence, Variants } from "framer-motion";
 import { X } from "lucide-react";
+import { MobileSidebarProps } from "@/types/Interfaces";
 
 const navLinks = [
     { href: "/servicos", label: "Serviços" },
     { href: "/#informacoes", label: "Contato" },
 ];
-
-interface MobileSidebarProps {
-    isOpen: boolean;
-    toggleMenu: () => void;
-}
 
 export default function MobileSidebar({ isOpen, toggleMenu }: MobileSidebarProps) {
     const sidebarVariants: Variants = {

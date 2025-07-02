@@ -21,3 +21,5 @@ export const itemVariants: Variants = {
         },
     },
 };
+
+// Related to the cards

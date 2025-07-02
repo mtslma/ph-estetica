@@ -1,16 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { Menu } from "lucide-react";
+import { HeaderBarProps } from "@/types/Interfaces";
 
+// Lista de navegação
 const navLinks = [
     { href: "/servicos", label: "Serviços" },
-    { href: "/sobre", label: "Sobre" },
     { href: "/contato", label: "Contato" },
 ];
-
-interface HeaderBarProps {
-    toggleMenu: () => void;
-}
 
 export default function HeaderBar({ toggleMenu }: HeaderBarProps) {
     return (
