@@ -2,7 +2,7 @@
 
 import { containerVariants, itemVariants } from "@/types/Variants";
 import { motion } from "framer-motion";
-import { ArrowRight, Calendar, Car, Gem, Shield, ShieldCheck, Sparkles } from "lucide-react";
+import { ArrowRight, Calendar, Car, Gem, ShieldCheck } from "lucide-react";
 import HeroCard from "../HeroCard/HeroCard";
 import Link from "next/link";
 
