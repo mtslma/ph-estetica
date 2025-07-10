@@ -21,9 +21,9 @@ export interface ServiceCardType {
 
 export interface Produto {
     nome: string;
-    descricao: string;
-    preco: number;
-    desconto: number;
+    descricao: { [key: string]: string[] };
+    extra: string[];
+    valores: { [key: string]: number };
 }
 
 export interface CategoriaServicos {

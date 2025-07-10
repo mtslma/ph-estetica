@@ -11,12 +11,10 @@ export default function ServiceList() {
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
 
-    // Fazendo a busca das informações no arquivo .json
     useEffect(() => {
         const fetchServicos = async () => {
             try {
                 const response = await fetch("/ph-estetica/data/servicos.json");
-
                 if (!response.ok) {
                     throw new Error(`Falha ao carregar os dados: ${response.statusText}`);
                 }
@@ -32,12 +30,9 @@ export default function ServiceList() {
         fetchServicos();
     }, []);
 
-    // Carregando
     if (isLoading) {
         return <div className="text-center py-24 font-sans">Carregando serviços...</div>;
     }
-
-    // Mensagem
     if (error) {
         return <div className="text-center py-24 text-red-500 font-sans">Erro: {error}</div>;
     }
@@ -49,7 +44,13 @@ export default function ServiceList() {
                     {servicos.map((categoriaItem) => (
                         <div key={categoriaItem.categoria} className="rounded-xl border border-white/10 p-6 bg-white/5 backdrop-blur-md">
                             <h3 className="font-heading text-3xl font-bold text-red-700 mb-8">{categoriaItem.categoria}</h3>
-                            <motion.ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3" variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true }}>
+                            <motion.ul 
+                                className="grid gap-6 grid-cols-[repeat(auto-fit,minmax(380px,1fr))]" 
+                                variants={containerVariants} 
+                                initial="hidden" 
+                                whileInView="visible" 
+                                viewport={{ once: true }}
+                            >
                                 {categoriaItem.produtos.map((produto) => (
                                     <ServiceCard key={produto.nome} produto={produto} />
                                 ))}

@@ -2,28 +2,9 @@
 
 import { containerVariants, itemVariants } from "@/types/Variants";
 import { motion } from "framer-motion";
-import { ArrowRight, Calendar, Car, Shield, Sparkles } from "lucide-react";
+import { ArrowRight, Calendar, Car, Gem, Shield, ShieldCheck, Sparkles } from "lucide-react";
 import HeroCard from "../HeroCard/HeroCard";
 import Link from "next/link";
-
-// Lista dos serviços principais, depois alterar aqui para algo mais relevante talvez
-const servicos = [
-    {
-        icon: Car,
-        title: "Higienização Interna",
-        description: "Limpeza profunda com remoção dos bancos, higienização de teto, carpete e estofados com bactericida, mais proteção de plásticos internos.",
-    },
-    {
-        icon: Shield,
-        title: "Lavagem Detalhada",
-        description: "Processo exterior completo com pré-lavagem e lavagem snow foam, limpeza detalhada de rodas e caixas de roda, com proteção de plásticos.",
-    },
-    {
-        icon: Sparkles,
-        title: "Full Detail",
-        description: "O pacote definitivo. Une a Higienização Interna Premium com a Lavagem Técnica Detalhada para uma renovação completa do seu automóvel.",
-    },
-];
 
 export default function HeroSection() {
     return (
@@ -46,18 +27,33 @@ export default function HeroSection() {
                         Com técnica e paixão, preservamos o valor e a beleza do seu automóvel em cada detalhe.
                     </motion.p>
 
-                    {/* Botão que leva até a seção do WhatsApp */}
+                    {/* Botão que leva até a página de contato com as informações do WhatsApp */}
                     <motion.div variants={itemVariants} className="mt-4">
-                        <Link href="#informacoes" className="flex items-center gap-2 rounded-full bg-red-600 px-8 py-3 text-base font-bold text-white uppercase tracking-wider shadow-lg shadow-red-600/30 transition-all duration-300 hover:bg-red-700 hover:scale-105 hover:shadow-xl hover:shadow-red-700/40">
+                        <Link href="/contato" className="flex items-center gap-2 rounded-full bg-red-600 px-8 py-3 text-base font-bold text-white uppercase tracking-wider shadow-lg shadow-red-600/30 transition-all duration-300 hover:bg-red-700 hover:scale-105 hover:shadow-xl hover:shadow-red-700/40">
                             <Calendar size={20} />
                             Agendar Agora
                         </Link>
                     </motion.div>
                     {/* Container dos cards de serviço */}
                     <motion.div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 max-w-5xl mx-auto" variants={itemVariants}>
-                        {servicos.map((servico) => (
-                            <HeroCard key={servico.title} icon={servico.icon} title={servico.title} description={servico.description} />
-                        ))}
+                        
+                        <HeroCard 
+                            icon={Car}
+                            title="Revitalização Automotiva"
+                            description="Uma restauração completa para a aparência do seu veículo. Cuidamos de cada detalhe, da pintura às rodas, para resgatar o brilho original e o impacto de um carro bem cuidado."
+                        />
+
+                        <HeroCard 
+                            icon={ShieldCheck}
+                            title="Higienização e Proteção"
+                            description="Elimine ácaros, bactérias e odores com uma higienização profunda de estofados e carpetes, restaurando o bem-estar e a segurança no interior do seu carro."
+                        />
+
+                        <HeroCard 
+                            icon={Gem}
+                            title="Acabamento de Exposição "
+                            description="Eleve o nível da estética com polimento técnico para remover imperfeições e vitrificação para criar uma camada de proteção cerâmica com brilho e durabilidade de anos."
+                        />
 
                         <Link href={"/servicos"} className="md:col-span-3">
                             <p className="flex items-center justify-end mt-2 hover:underline">

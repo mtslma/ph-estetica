@@ -6,7 +6,7 @@ import { HeaderBarProps } from "@/types/Interfaces";
 // Lista de navegação
 const navLinks = [
     { href: "/servicos", label: "Serviços" },
-    { href: "/#informacoes", label: "Contato" },
+    { href: "/contato", label: "Contato" },
 ];
 
 export default function HeaderBar({ toggleMenu }: HeaderBarProps) {

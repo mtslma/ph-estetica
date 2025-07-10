@@ -3,7 +3,6 @@ import { Oswald, Poppins, Sora } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
-import LenisProvider from "@/components/LenisProvider/LenisProvider";
 
 const sora = Sora({
     subsets: ["latin"],
@@ -36,8 +35,6 @@ export default function RootLayout({
     return (
         <html lang="pt-BR">
             <body className={`${sora.variable} ${poppins.variable} ${oswald.variable} antialiased bg-black text-white`}>
-                <LenisProvider />
-
                 <Header></Header>
                 {children}
                 <Footer></Footer>
