@@ -7,7 +7,6 @@ import { MobileSidebarProps } from "@/types/Interfaces";
 
 const navLinks = [
     { href: "/servicos", label: "Serviços" },
-    { href: "/contato", label: "Contato" },
 ];
 
 export default function MobileSidebar({ isOpen, toggleMenu }: MobileSidebarProps) {

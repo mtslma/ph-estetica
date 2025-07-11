@@ -52,7 +52,7 @@ export default function ServiceList() {
                     {servicos.map((categoriaItem) => (
                         <div key={categoriaItem.categoria} className="rounded-xl border border-white/10 p-6 bg-white/5 backdrop-blur-md">
                             <h3 className="font-heading text-3xl font-bold text-red-700 mb-8">{categoriaItem.categoria}</h3>
-                            <motion.ul className="grid gap-6 grid-cols-[repeat(auto-fit,minmax(380px,1fr))]" variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true }}>
+                            <motion.ul className="grid gap-6 grid-cols-[repeat(auto-fit,minmax(90%,1fr))] md:grid-cols-[repeat(auto-fit,minmax(360px,1fr))]" variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true }}>
                                 {categoriaItem.produtos.map((produto) => (
                                     <ServiceCard key={produto.nome} produto={produto} />
                                 ))}

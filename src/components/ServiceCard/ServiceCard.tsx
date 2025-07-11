@@ -47,19 +47,25 @@ export default function ServiceCard({ produto }: ServiceCardType) {
     };
 
     return (
-        <motion.li key={produto.nome} variants={itemVariants} className="flex">
-            <div className="w-full rounded-xl border border-white/10 bg-white/5 p-6 backdrop-blur-md flex flex-col flex-1">
-                <div className="flex flex-col md:flex-grow">
+        <motion.li key={produto.nome} variants={itemVariants} className="flex max-w-full">
+            <div className="max-w-full rounded-xl border border-white/10 bg-white/5 p-6 backdrop-blur-md flex flex-col flex-1">
+                <div className="flex flex-col md:flex">
                     <h4 className="font-poppins text-center font-heading text-xl font-semibold text-white">{produto.nome}</h4>
                     {renderDescricao(produto.descricao)}
                 </div>
-                <div className="mt-auto flex flex-col sm:flex-row items-center justify-center sm:gap-4">
+
+
+                <div className="mt-auto flex flex-col items-center justify-center sm:gap-4">
+
+                    {/* Carregando o preço */}
                     <div className="pt-6 text-center">
                         {renderPrecos(produto.valores)}
                     </div>
+
+                    {/* Link que leva até o WhatsApp com a mensagem customizada para o serviço desejado */}
                     <div className="mt-6 text-center">
                         <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="inline-block text-green-500 hover:text-green-400 transition duration-300 ease-in-out">
-                            <div className="p-2 rounded-full bg-emerald-900 flex items-center gap-2 group">
+                            <div className="px-6 py-2 md:p-3 rounded-full bg-emerald-900 flex items-center gap-2 group">
                                 <FaWhatsapp className="size-6" />
                                 <span className="font-sora group-hover:underline">Agendar via WhatsApp</span>
                             </div>

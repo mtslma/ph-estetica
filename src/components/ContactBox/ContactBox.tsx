@@ -19,8 +19,8 @@ export default function ContactBox({ icon, iconBgGradient, title, subtitle, butt
                 {/* O gradiente do ícone agora é uma prop dinâmica */}
                 <div className={`w-16 h-16 rounded-full bg-gradient-to-br ${iconBgGradient} flex items-center justify-center flex-shrink-0`}>{icon}</div>
                 <div className="text-left">
-                    <p className="font-bold text-white text-lg">{title}</p>
-                    <p className="text-sm text-gray-400">{subtitle}</p>
+                    <p className="font-poppins text-white text-md">{title}</p>
+                    <p className="font-sora text-sm text-gray-400">{subtitle}</p>
                 </div>
             </div>
             <Link href={linkUrl} target="_blank" className="mt-6 w-full block text-center rounded-lg border border-white/40 bg-transparent px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-white hover:text-black transition-all duration-300">

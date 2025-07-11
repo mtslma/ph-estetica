@@ -31,3 +31,9 @@ export interface CategoriaServicos {
     produtos: Produto[];
 }
 
+export interface SliderComparerProps {
+    beforeImage: string;
+    afterImage: string;
+    beforeAlt?: string;
+    afterAlt?: string;
+}
