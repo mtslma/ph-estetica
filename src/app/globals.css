@@ -7,11 +7,16 @@
 
 html {
     scroll-behavior: smooth;
+
+    /* Pattern do background */
+    background-color: #1a1a1a;
+    opacity: 0.8;
+    background-image: radial-gradient(oklch(57.7% 0.245 27.325) 0.5px, transparent 0.5px), radial-gradient(oklch(57.7% 0.245 27.325) 0.5px, oklch(21% 0.034 264.665) 0.5px);
+    background-size: 30px 30px;
+    background-position: 0 0, 60px 60px;
 }
 
 body {
-    background-color: #1a1a1a;
-    color: #f0f0f0;
     font-family: "Inter", sans-serif;
 }
 

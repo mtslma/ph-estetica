@@ -1,7 +1,4 @@
-"use client";
-
-import InfoSection from "@/components/InfoSection/InfoSection";
-
+import InfoSection from "@/components/ContactSession/ContactSession";
 
 export default function Servicos() {
     return (
