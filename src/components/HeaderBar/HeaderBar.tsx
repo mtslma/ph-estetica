@@ -15,7 +15,7 @@ export default function HeaderBar({ toggleMenu }: HeaderBarProps) {
             <div className="mx-auto flex h-12 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
                 {/* Carregando a logo */}
                 <Link href="/" aria-label="Página Inicial" className="z-40">
-                    <img src="/ph-estetica/logo.png" alt="Logo PH Estética" width={45} height={45} className="h-10 w-auto" />
+                    <img src="/logo.png" alt="Logo PH Estética" width={45} height={45} className="h-10 w-auto" />
                 </Link>
 
                 {/* Navegação de Desktop */}

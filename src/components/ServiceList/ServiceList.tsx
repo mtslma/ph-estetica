@@ -16,7 +16,7 @@ export default function ServiceList() {
         const fetchServicos = async () => {
             try {
                 // Rota para os arquivos públicos do projeto
-                const response = await fetch("/ph-estetica/data/servicos.json");
+                const response = await fetch("/data/servicos.json");
                 if (!response.ok) {
                     throw new Error(`Falha ao carregar os dados: ${response.statusText}`);
                 }
