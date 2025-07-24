@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# README - PH Estética 🚗✨
 
-## Getting Started
+A PH Estética é uma empresa de estética automotiva dedicada a preservar e realçar a beleza de veículos. Localizada em Caieiras, São Paulo, a PH Estética combina técnica e paixão para cuidar de cada detalhe do seu carro.
 
-First, run the development server:
+## 🔗 Links Rápidos
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* [Página Inicial](https://www.ph-estetica.com.br)
+* [Nossos Serviços](https://www.ph-estetica.com.br/servicos)
+* [Galeria de fotos](https://www.ph-estetica.com.br/galeria)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Serviços Oferecidos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+A PH Estética oferece uma gama de serviços para a revitalização e proteção do seu veículo:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Revitalização Automotiva:** ✨ Um serviço completo que restaura a aparência do veículo, focando na pintura e nas rodas para resgatar o brilho original e a aparência de novo.
 
-## Learn More
+* **Higienização e Proteção:** 🧼 Limpeza profunda de estofados e carpetes, eliminando ácaros, bactérias e odores. Este serviço visa restaurar o bem-estar e a segurança no interior do veículo.
 
-To learn more about Next.js, take a look at the following resources:
+* **Acabamento de Exposição:** 🏆 Um serviço premium que eleva a estética do veículo a um novo patamar. Inclui polimento técnico para remover imperfeições e vitrificação para criar uma camada de proteção cerâmica, garantindo brilho e durabilidade.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📞 Contato e Agendamento
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **Telefone/WhatsApp:** (11) 94745-7389
+* **Horário de Atendimento:** 🕗 08:00 às 22:00
+* **Localização:** 📍 Caieiras, SP
 
-## Deploy on Vercel
+Para agendar um serviço ou solicitar um orçamento, basta entrar em contato através do número fornecido.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📱 Redes Sociais
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Acompanhe o trabalho da PH Estética e veja exemplos de serviços realizados através do Instagram:
+
+* **Instagram:** [@ph_estetica](https://www.instagram.com/ph_estetica/)
